@@ -5,7 +5,7 @@
     firstname: "Jan",
     lastname: "Van Rensbergen",
     email: "jan.vanrensbergen@gmail.com",
-    address: [Bergstraat 39, BE-3200 Aarschot],
+    address: [Bergstraat 39, 3200 Aarschot],
     phone: "+32 485 58 60 57",
     position: ("Inventor", "Theoretical Physicist"),
     github: "",
@@ -17,37 +17,28 @@
   heading-font: "Roboto",
   body-font: ( "Roboto" ),
   // body-font-size: 10.5pt,
-  paper-size: "a4", 
+  paper-size: "a4",
   // side-width: 4cm,
   // gdpr: false,
   // footer: auto,
 )
 
 #side[
-  = About me
-  Visionary inventor and theoretical physicist, renowned for pioneering work in time travel, flux capacitor technology, and unconventional scientific research.
-  Adept at creative problem-solving, interdisciplinary collaboration, and pushing the boundaries of known science.
 
   = Interests
-  - Temporal Mechanics
-  - Quantum Physics
-  - Invention & Engineering
-  - DeLorean Restoration
-  - Science Education
+  - Kotlin software development
+  - Domain Driven Design
+  - Clean Code/Architecture
 
   = Contact
   #contact-info()
 
   = Personal
-  Nationality: American
-
-  Date of birth: 22.03.1920
+  Nationality: Belgian
+  Date of birth: 30.07.1982
 
   #v(1fr)
   #social-links()
-
-  // Use colbreak() to insert a page break
-  #colbreak()
 
   = Languages
   #item-with-level("English", 5, subtitle: "Native")
@@ -78,6 +69,13 @@
     "Experimental Design",
   ))
 ]
+
+= About
+
+A motivated senior software engineer helping companies big and small deliver working software supporting real use cases.\
+While striving for technical excellence, I get fired up about CQRS, clean - solid - code, clouds, CI/CD, observability andKotlin.\
+But, above all: picking the right tool for the job.
+
 
 = Education
 
