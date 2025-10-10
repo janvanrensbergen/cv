@@ -1,4 +1,4 @@
-#import "@preview/neat-cv:0.4.0": *
+#import "template/lib.typ": *
 
 #show: cv.with(
   author: (
@@ -7,13 +7,13 @@
     email: "jan.vanrensbergen@gmail.com",
     address: [Bergstraat 39, 3200 Aarschot],
     phone: "+32 485 58 60 57",
-    position: ("Inventor", "Theoretical Physicist"),
-    github: "",
+    position: (""),
+    github: "janvanrensbergen",
     linkedin: "janvanrensbergen",
   ),
   profile-picture: image("profile.jpg"),
-  accent-color: rgb("#4682b4"),
-  header-color: rgb("#3b4f60"),
+  accent-color: luma(50),
+  header-color: luma(100),
   heading-font: "Roboto",
   body-font: ( "Roboto" ),
   // body-font-size: 10.5pt,
@@ -29,6 +29,7 @@
   - Kotlin software development
   - Domain Driven Design
   - Clean Code/Architecture
+  - Biking - Fitness - Music
 
   = Contact
   #contact-info()
@@ -39,11 +40,6 @@
 
   #v(1fr)
   #social-links()
-
-  = Languages
-  #item-with-level("English", 5, subtitle: "Native")
-  #item-with-level("German", 3, subtitle: "Intermediate")
-  #item-with-level("French", 2, subtitle: "Basic")
 
   = Physics & Engineering
   #item-with-level("Temporal Mechanics", 5)
@@ -68,14 +64,22 @@
     "Improvisation",
     "Experimental Design",
   ))
+  
+  = Languages
+  #item-with-level("Dutch", 5, subtitle: "Native")
+  #item-with-level("English", 3, subtitle: "Native")
+  #item-with-level("French", 1, subtitle: "Basic")
 ]
 
 = About
 
-A motivated senior software engineer helping companies big and small deliver working software supporting real use cases.\
-While striving for technical excellence, I get fired up about CQRS, clean - solid - code, clouds, CI/CD, observability andKotlin.\
-But, above all: picking the right tool for the job.
+#p(font-size: 1.1em)[
+  A motivated senior software engineer helping companies big and small deliver working software supporting real use cases.
 
+  While striving for technical excellence, I get fired up about CQRS, clean - solid - code, clouds, CI/CD, observability and Kotlin.
+
+  But, above all: picking the right tool for the job.
+]
 
 = Education
 
