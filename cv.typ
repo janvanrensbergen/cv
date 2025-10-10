@@ -1,101 +1,347 @@
-#set page(
-  width: 210mm,
-  height: 297mm,
-   margin: (
-      top: 15mm,
-      bottom: 15mm,
-      left: 20mm,
-      right: 20mm,
-    )
+#import "@preview/neat-cv:0.4.0": *
+
+#show: cv.with(
+  author: (
+    firstname: "Jan",
+    lastname: "Van Rensbergen",
+    email: "jan.vanrensbergen@gmail.com",
+    address: [Bergstraat 39, BE-3200 Aarschot],
+    phone: "+32 485 58 60 57",
+    position: ("Inventor", "Theoretical Physicist"),
+    github: "",
+    linkedin: "janvanrensbergen",
+  ),
+  profile-picture: image("profile.jpg"),
+  accent-color: rgb("#4682b4"),
+  header-color: rgb("#3b4f60"),
+  heading-font: "Roboto",
+  body-font: ( "Roboto" ),
+  // body-font-size: 10.5pt,
+  paper-size: "a4", 
+  // side-width: 4cm,
+  // gdpr: false,
+  // footer: auto,
 )
 
-// Fonts & styling
-#set text(font: "Helvetica", size: 10pt)
+#side[
+  = About me
+  Visionary inventor and theoretical physicist, renowned for pioneering work in time travel, flux capacitor technology, and unconventional scientific research.
+  Adept at creative problem-solving, interdisciplinary collaboration, and pushing the boundaries of known science.
 
-#show heading: set text(
-  font: "Helvetica",
-  weight: "bold",
-  size: 12pt,
-  fill: rgb("#2C3E50"),
-)
+  = Interests
+  - Temporal Mechanics
+  - Quantum Physics
+  - Invention & Engineering
+  - DeLorean Restoration
+  - Science Education
 
-// Layout grid: sidebar + main content
-#grid(
-  columns: (0.35fr, 0.65fr),
-  gutter: 10mm,
-)[
-  // Sidebar
-  [
-    // Dummy profile picture
-    #image("profile.jpg", width: 3cm, height: 3cm)
+  = Contact
+  #contact-info()
 
-    #v(5mm)
+  = Personal
+  Nationality: American
 
-    #heading[Contact]
-    *Jan Van Rensbergen*
-    30.07.1982
-    +32 485 58 60 57
-    Bergstraat 39
-    3200 Aarschot
+  Date of birth: 22.03.1920
 
-    #v(5mm)
-    #heading[Education & Certifications]
-    - 2017 · AWS Certified Developer (Associate)
-    - 2014 · MongoDB for Java Developers
-    - 2010 · Rich Web Applications with Spring
-    - 2009 · Adobe Flex 3 and LiveCycle
-    - 2006 · Sun Certified Java Programmer
-    - 2004 · Gegradueerde Informatica (KHK)
+  #v(1fr)
+  #social-links()
 
-    #v(5mm)
-    #heading[Skills]
-    *Languages & Frameworks:* Kotlin, Java SE 21, Spring, Jakarta EE
-    *Testing:* JUnit, Mockito, AssertJ, MockK
-    *Cloud:* AWS, GCP
-    *DevOps:* Docker, Kubernetes, Git, CI/CD
-    *Databases:* SQL, MongoDB, DynamoDB, Elasticsearch
-    *Frontend:* Angular, TypeScript, HTML5, CSS3
+  // Use colbreak() to insert a page break
+  #colbreak()
 
-    #v(5mm)
-    #heading[Languages]
-    - Dutch · native
-    - English · good
-    - French · notions
-  ]
+  = Languages
+  #item-with-level("English", 5, subtitle: "Native")
+  #item-with-level("German", 3, subtitle: "Intermediate")
+  #item-with-level("French", 2, subtitle: "Basic")
 
-  // Main column
-  [
-    #heading[Profile]
-    A motivated senior software engineer helping companies deliver working software
-    that supports real use cases. Passionate about CQRS, clean code, CI/CD, observability,
-    Kotlin, and above all: picking the right tool for the job.
+  = Physics & Engineering
+  #item-with-level("Temporal Mechanics", 5)
+  #item-with-level("Quantum Theory", 4)
+  #item-with-level("Nuclear Physics", 4)
+  #item-with-level("Mechanical Engineering", 5)
+  #item-with-level("Electrical Engineering", 4)
+  #item-with-level("Automotive Restoration", 4)
 
-    #v(5mm)
-    #heading[Experience]
+  = Technology
+  #item-with-level("Flux Capacitor Design", 5)
+  #item-with-level("Time Machine Construction", 5)
+  #item-with-level("Robotics", 3)
+  #item-with-level("Computer Programming", 3)
 
-    == Opgroeien (Jun 2023 – Present) · Senior Java Developer
-    Built PARKOUR, a youth platform (13–25) enabling goal setting, progress tracking, and team collaboration.
-    *Tech:* Java SE 21, Spring Boot, CQRS, Kubernetes, ArgoCD, RabbitMQ, Gradle, Angular, Ionic
-
-    == Melexis (Oct 2022 – Jun 2023) · Senior Kotlin Developer
-    Revamped wafermap system with strangler pattern and cloud services.
-    *Tech:* Kotlin, Spring Boot, GCP, Arrow, Pub/Sub, GitLab CI, JUnit, MockK
-
-    == VRT (Oct 2019 – Oct 2022) · Senior Java Developer
-    Integrated video flows with broadcast systems, archives, and third parties.
-    *Tech:* Java SE 8+, Spring Boot, AWS, AngularJS, REST/SOAP, Jenkins
-
-    == Liantis (Jan – Oct 2019) · Senior Kotlin Developer
-    Built "Startersomgeving," enabling easy self-employment onboarding.
-    *Tech:* Kotlin, Spring Boot, OpenID Connect, RabbitMQ, Angular 6
-
-    == De Persgroep (2016 – Dec 2018) · Senior Kotlin/Java Developer
-    Delivered cloud-native CQRS event-sourced print editorial system.
-    *Tech:* Kotlin, Java 8+, Spring Boot, AWS, Grafana, Elasticsearch
-
-    == Earlier Roles (2004 – 2016)
-    Developer roles at Kind & Gezin, INBO, Toerisme Vlaanderen, Provincie Vlaams-Brabant,
-    De Post, Mazda, and Telenet.
-    *Tech:* Java, Spring, Oracle, Tomcat, Struts, Angular, AWS, SQL, Elasticsearch
-  ]
+  = Other Skills
+  #item-pills((
+    "Creative Problem Solving",
+    "Scientific Communication",
+    "Workshop Safety",
+    "Mentoring Young Scientists",
+    "Improvisation",
+    "Experimental Design",
+  ))
 ]
+
+= Education
+
+#entry(
+  title: "PhD in Physics",
+  date: "1951",
+  institution: "California Institute of Technology",
+  location: "Pasadena, CA, USA",
+  [Dissertation: _"Theoretical Approaches to Temporal Displacement and Causality"_.],
+)
+
+#entry(
+  title: "BSc in Engineering",
+  date: "1943",
+  institution: "MIT",
+  location: "Cambridge, MA, USA",
+  [Thesis: _"Practical Applications of High-Voltage Circuits in Experimental Physics"_.],
+)
+
+= Professional Experience
+
+#entry(
+  title: "Independent Inventor & Research Scientist",
+  date: "1955 – now",
+  institution: "Hill Valley Laboratory",
+  location: "Hill Valley, CA, USA",
+)[
+  - Invented the Flux Capacitor, enabling practical time travel.
+  - Designed and constructed the DeLorean Time Machine and related temporal devices.
+  - Conducted groundbreaking experiments in temporal mechanics and quantum theory.
+  - Provided scientific mentorship to aspiring inventors and students.
+  - Published theoretical work on paradoxes, causality, and energy transfer.
+]
+
+#entry(
+  title: "Science Educator & Public Speaker",
+  date: "1960 – now",
+  institution: "Various Institutions",
+  location: "USA & Europe",
+)[
+  - Delivered lectures and demonstrations on physics, engineering, and the ethics of scientific discovery.
+  - Organized science fairs and educational outreach for young students.
+]
+
+= Academic Experience
+
+#entry(
+  title: "Visiting Professor: Temporal Physics",
+  date: "1985",
+  institution: "Hill Valley University",
+  location: "Hill Valley, CA, USA",
+)[
+  - Developed and taught courses on time travel theory and paradox management.
+  - Supervised student projects on experimental physics and invention.
+]
+
+#entry(
+  title: "Adjunct Lecturer: Quantum Theory and Paradoxes",
+  date: "1978 – 1984",
+  institution: "California Institute of Technology",
+  location: "Pasadena, CA, USA",
+)[
+  - Lectured on advanced quantum mechanics and paradoxes in theoretical physics.
+  - Organized interdisciplinary seminars on causality and time.
+]
+
+#entry(
+  title: "Research Fellow: High-Energy Particle Physics",
+  date: "1952 – 1955",
+  institution: "MIT",
+  location: "Cambridge, MA, USA",
+)[
+  - Conducted research on high-voltage circuits and early particle acceleration experiments.
+]
+
+= Grants and Awards
+
+#entry(
+  title: "Lifetime Achievement in Innovation",
+  date: "1990",
+  institution: "International Society of Inventors",
+  location: "Geneva, Switzerland",
+  "Recognized for a lifetime of inventive contributions to science and engineering.",
+)
+
+#entry(
+  title: "Best Experimental Demonstration",
+  date: "1986",
+  institution: "World Science Congress",
+  location: "London, UK",
+  "Awarded for the live demonstration of the DeLorean Time Machine prototype.",
+)
+
+#entry(
+  title: "Hill Valley Science Achievement Award",
+  date: "1985",
+  institution: "Hill Valley Science Society",
+  location: "Hill Valley, CA, USA",
+  "Awarded for outstanding contributions to science and innovation in the community.",
+)
+
+#colbreak()
+
+= Talks
+
+#entry(
+  title: "From DeLorean to Locomotive: Engineering Time Machines",
+  date: "1991",
+  institution: "Society of Inventors Annual Meeting",
+  location: "San Francisco, CA, USA",
+  "Panelist on the evolution of time travel technology.",
+)
+
+#entry(
+  title: "Paradoxes and Causality: Lessons from Time Travel",
+  date: "1986",
+  institution: "World Science Congress",
+  location: "London, UK",
+  "Invited talk on managing paradoxes and causality in theoretical physics.",
+)
+
+#entry(
+  title: "The Flux Capacitor: A New Era in Temporal Mechanics",
+  date: "1985",
+  institution: "International Physics Symposium",
+  location: "Geneva, Switzerland",
+  "Keynote on the invention and implications of the flux capacitor.",
+)
+
+
+= References
+
+#entry(
+  title: "Marty McFly",
+  institution: "Musician & Time Traveler",
+  location: "Hill Valley, CA, USA",
+  [
+    Long-term collaborator and field assistant in temporal experiments.\
+    Contact: #email-link("marty.mcfly@hillvalley.com")
+  ],
+)
+
+#entry(
+  title: "Clara Clayton",
+  institution: "Science Educator",
+  location: "Hill Valley, CA, USA",
+  [
+    Advisor on science communication and educational outreach.\
+    Contact: #email-link("clara.clayton@hillvalley.edu")
+  ],
+)
+
+= References
+
+#entry(
+  title: "Marty McFly",
+  institution: "Musician & Time Traveler",
+  location: "Hill Valley, CA, USA",
+  [
+    Long-term collaborator and field assistant in temporal experiments.\
+    Contact: #email-link("marty.mcfly@hillvalley.com")
+  ],
+)
+
+#entry(
+  title: "Clara Clayton",
+  institution: "Science Educator",
+  location: "Hill Valley, CA, USA",
+  [
+    Advisor on science communication and educational outreach.\
+    Contact: #email-link("clara.clayton@hillvalley.edu")
+  ],
+)
+
+= References
+
+#entry(
+  title: "Marty McFly",
+  institution: "Musician & Time Traveler",
+  location: "Hill Valley, CA, USA",
+  [
+    Long-term collaborator and field assistant in temporal experiments.\
+    Contact: #email-link("marty.mcfly@hillvalley.com")
+  ],
+)
+
+#entry(
+  title: "Clara Clayton",
+  institution: "Science Educator",
+  location: "Hill Valley, CA, USA",
+  [
+    Advisor on science communication and educational outreach.\
+    Contact: #email-link("clara.clayton@hillvalley.edu")
+  ],
+)
+
+= References
+
+#entry(
+  title: "Marty McFly",
+  institution: "Musician & Time Traveler",
+  location: "Hill Valley, CA, USA",
+  [
+    Long-term collaborator and field assistant in temporal experiments.\
+    Contact: #email-link("marty.mcfly@hillvalley.com")
+  ],
+)
+
+#entry(
+  title: "Clara Clayton",
+  institution: "Science Educator",
+  location: "Hill Valley, CA, USA",
+  [
+    Advisor on science communication and educational outreach.\
+    Contact: #email-link("clara.clayton@hillvalley.edu")
+  ],
+)
+
+= References
+
+#entry(
+  title: "Marty McFly",
+  institution: "Musician & Time Traveler",
+  location: "Hill Valley, CA, USA",
+  [
+    Long-term collaborator and field assistant in temporal experiments.\
+    Contact: #email-link("marty.mcfly@hillvalley.com")
+  ],
+)
+
+
+
+= References
+
+#entry(
+  title: "Marty McFly",
+  institution: "Musician & Time Traveler",
+  location: "Hill Valley, CA, USA",
+  [
+    Long-term collaborator and field assistant in temporal experiments.\
+    Contact: #email-link("marty.mcfly@hillvalley.com")
+  ],
+)
+
+
+#entry(
+  title: "Clara Clayton",
+  institution: "Science Educator",
+  location: "Hill Valley, CA, USA",
+  [
+    Advisor on science communication and educational outreach.\
+    Contact: #email-link("clara.clayton@hillvalley.edu")
+  ],
+)
+
+= References
+
+
+#entry(
+  title: "Clara Clayton",
+  institution: "Science Educator",
+  location: "Hill Valley, CA, USA",
+  [
+    Advisor on science communication and educational outreach.\
+    Contact: #email-link("clara.clayton@hillvalley.edu")
+  ],
+)
