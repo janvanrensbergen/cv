@@ -34,10 +34,10 @@
   #contact-info()
 
   = Personal
-  Nationality: Belgian
+  Nationality: Belgian\
   Date of birth: 30.07.1982
-
-  #v(1fr)
+  
+  
   #social-links()
 
 
@@ -59,7 +59,7 @@
 
   = Languages
   #item-with-level("Dutch", 5, subtitle: "Native")
-  #item-with-level("English", 3, subtitle: "Native")
+  #item-with-level("English", 3, subtitle: "Good")
   #item-with-level("French", 1, subtitle: "Basic")
 ]
 

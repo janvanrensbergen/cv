@@ -38,7 +38,7 @@
 #let experience(
   title: none,
   from: "",
-  until: "",
+  until: none,
   role: "",
   location: "",
   tech-stack: (),
@@ -47,12 +47,12 @@
   #block(breakable: false)[
     #entry(
       title: title,
-      date: [#(from + " - " + until)],
+      date: (from, until).filter(it => it != none).join(" - "),
       institution: role,
       location: location,
     )[
 
-      #block(above: 2em)[
+      #block(above: 1.2em)[
         #set par(spacing: 1.1em)
         #description
         #tech-stack-items(tech-stack)
@@ -71,8 +71,8 @@
       [
         #experience(
           title: exp.title,
-          from: exp.from,
-          until: exp.until,
+          from: if "from" in exp { exp.from } else { none },
+          until: if "until" in exp { exp.until } else { none },
           role: exp.role,
           location: exp.location,
           tech-stack: exp.technologies,

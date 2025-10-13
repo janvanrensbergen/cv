@@ -1,7 +1,18 @@
+athumi:
+  title: "Athumi"
+  from: "2024"
+  until: "present"
+  role: "Senior Kotlin Developer"
+  location: "Gent, Belgium - Hybrid"
+  technologies:
+    - "Kotlin"
+
+  description: |
+
 opgroeien:
   title: "Opgroeien"
   from: "2023"
-  until: "present"
+  until: "2024"
   role: "Senior Java Developer"
   location: "Leuven, Belgium - Hybrid"
   technologies:
@@ -80,7 +91,7 @@ liantis:
   title: "Liantis"
   from: "2019"
   until: "2019"
-  role: "Senior Kotlin Developer"
+  role: "Senior Kotlin Team Lead"
   location: "Brussels, Belgium"
   technologies:
     - "Kotlin"
@@ -100,7 +111,7 @@ dpg:
   title: "De Persgroep"
   from: "2016"
   until: "2018"
-  role: "Senior Kotlin/Java Developer"
+  role: "Senior Kotlin - Java Lead Developer"
   location: "Kobbegem, Belgium"
   technologies:
     - "Kotlin"
@@ -136,7 +147,6 @@ dpg:
 kindengezin:
   title: "Kind en Gezin"
   from: "2016"
-  until: ""
   role: "Senior Java Web Developer"
   location: "Kontich, Belgium"
   technologies:
@@ -285,7 +295,6 @@ de_post:
 mazda:
   title: "Mazda"
   from: "2005"
-  until: ""
   role: "Java Web Developer"
   location: "Willebroek,Belgium"
   technologies:
