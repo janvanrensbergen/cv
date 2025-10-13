@@ -1,8 +1,106 @@
+opgroeien:
+  title: "Opgroeien"
+  from: "2023"
+  until: "present"
+  role: "Senior Java Developer"
+  location: "Leuven, Belgium - Hybrid"
+  technologies:
+    - "Java SE 21"
+    - "Spring Framework"
+    - "Boot"
+    - "CQRS"
+    - "Kubernetes"
+    - "ArgoCd"
+    - "RabbitMQ"
+    - "Gradle"
+    - "Angular"
+    - "Ionic"
+  description: |
+    PARKOUR is an online platform designed for youth aged 13 to 25. It provides easy
+    access to information about personal development and themes of interest to this
+    age group. In PARKOUR, young users can create their own goals and actions,
+    which they can share with a team they assemble themselves.
+
+melexis:
+  title: "Melexis"
+  from: "2022"
+  until: "2023"
+  role: "Senior Kotlin Developer"
+  location: "Ieper, Belgium - Hybrid"
+  technologies:
+    - "Kotlin"
+    - "Spring Framework"
+    - "Boot"
+    - "Google Cloud Platform"
+    - "Arrow"
+    - "Google App Engine"
+    - "Cloud Storage"
+    - "Pub/Sub"
+    - "Gradle"
+    - "GitLab CI"
+    - "Jib"
+    - "JUnit"
+    - "Mockito"
+    - "Mockk"
+  description: |
+    Revamped the old Electronic Wafermap system using the strangler pattern,
+    creating smaller, specialized services running on Google App Engine.
+    Built electronic maps to identify problematic dies and converted them into
+    the correct format before sending them to customers and partners.
+
+vrt:
+  title: "VRT"
+  from: "2019"
+  until: "2022"
+  role: "Senior Java Developer"
+  location: "Brussels, Belgium - Hybrid"
+  technologies:
+    - "Java SE 8+"
+    - "Spring Framework"
+    - "Boot"
+    - "Integration"
+    - "Security"
+    - "AWS EB"
+    - "Lambda"
+    - "EC2"
+    - "S3"
+    - "CloudFormation"
+    - "SQS"
+    - "Gradle"
+    - "Maven"
+    - "AngularJS"
+    - "REST"
+    - "SOAP"
+    - "Jenkins"
+  description: |
+    Developed multiple video processing flows integrating online/offline
+    broadcast systems, archives, and third-party systems.
+
+liantis:
+  title: "Liantis"
+  from: "2019"
+  until: "2019"
+  role: "Senior Kotlin Developer"
+  location: "Brussels, Belgium"
+  technologies:
+    - "Kotlin"
+    - "Spring Framework"
+    - "Boot"
+    - "Security"
+    - "Integration"
+    - "OpenID Connect"
+    - "RabbitMQ"
+    - "Angular 6"
+  description: |
+    Built “Startersomgeving,” an application allowing users to easily become
+    self-employed, integrating with ItsMe for identification and POM as the
+    payment provider.
+
 dpg:
   title: "De Persgroep"
   from: "2016"
-  until: "dec 2018"
-  role: "Senior Kotlin/Java developer"
+  until: "2018"
+  role: "Senior Kotlin/Java Developer"
   location: "Kobbegem, Belgium"
   technologies:
     - "Kotlin"
@@ -11,24 +109,213 @@ dpg:
     - "Boot"
     - "Security"
     - "MVC"
-    - "thymeleaf"
+    - "Thymeleaf"
     - "Gradle"
     - "AWS EC2"
-    - "lambda"
+    - "Lambda"
     - "DynamoDb"
     - "Step Functions"
     - "SNS"
     - "SQS"
-    - "Cloudformation"
-    - "x-ray"
+    - "CloudFormation"
+    - "X-Ray"
     - "S3"
-    - "ecs"
+    - "ECS"
     - "Prometheus"
     - "Grafana"
-    - "ES/kibana"
+    - "Elasticsearch/Kibana"
     - "Rundeck"
     - "Ansible"
   description: |
-     Started at De Persgoep as a senior developer in a large squad that overtime evolved in a small high-performance team. The squad’s mission is to provide newsrooms with the best possible print editorial system. We started by successfully rolling out De Persgroep’s editorial system, based around Quark software, across newly acquired newsrooms.
+    Started at De Persgroep as a senior developer in a large squad that evolved into
+    a small high-performance team providing newsrooms with an optimal editorial
+    system. After rolling out the Quark-based system across new acquisitions, we
+    built a distributed, cloud-native (AWS) CQRS event-sourced editorial system
+    around Adobe InDesign Server.
 
-     After we completed the rollout we got the opportunity to build a fresh, distributed, cloud native (AWS), CQRS event sourced print editorial system around Adobe Indesign Server.
+kindengezin:
+  title: "Kind en Gezin"
+  from: "2016"
+  until: ""
+  role: "Senior Java Web Developer"
+  location: "Kontich, Belgium"
+  technologies:
+    - "Java SE 8"
+    - "Spring 4"
+    - "Spring Boot"
+    - "Spring Data REST"
+    - "Hibernate"
+    - "Spock"
+    - "JavaSlang"
+    - "Lombok"
+    - "Gradle"
+    - "AngularJS"
+    - "TypeScript"
+    - "SASS"
+    - "LESS"
+    - "Bootstrap"
+    - "Gulp"
+    - "Bower"
+    - "NPM"
+    - "Liquibase"
+    - "Postgres"
+  description: |
+    Developed “Vlaams Kadaster,” a web application for managing information
+    about children, beneficiaries, and funds in the context of child benefits.
+
+inbo:
+  title: "Instituut voor Natuur- en Bosonderzoek"
+  from: "2015"
+  until: "2016"
+  role: "Senior Java Web Developer"
+  location: "Brussels, Belgium"
+  technologies:
+    - "Java SE 8"
+    - "Spring 4"
+    - "Spring Boot"
+    - "Spring Data JPA"
+    - "Spring REST"
+    - "Spring Security"
+    - "Spring Cloud"
+    - "Spring Integration"
+    - "Spring Social"
+    - "Hibernate"
+    - "Thymeleaf"
+    - "Spock"
+    - "Cucumber"
+    - "Gradle"
+    - "AngularJS"
+    - "TypeScript"
+    - "RxJS"
+    - "SASS"
+    - "LESS"
+    - "Bootstrap"
+    - "Material Design"
+    - "Gulp"
+    - "Bower"
+    - "NPM"
+    - "Liquibase"
+    - "SQL Server"
+    - "Postgres"
+    - "AWS"
+  description: |
+    Supported scientific research by building various modern web applications
+    using the latest frontend and backend technologies.
+
+toerismevlaanderen:
+  title: "Toerisme Vlaanderen"
+  from: "2010"
+  until: "2015"
+  role: "Senior Java Web Developer"
+  location: "Brussels,Belgium"
+  technologies:
+    - "Java SE 8"
+    - "Spring Framework 4"
+    - "Spring MVC"
+    - "Webflow"
+    - "Thymeleaf"
+    - "Spring Data"
+    - "Spring Integration"
+    - "Spring Boot"
+    - "Spring Security"
+    - "Elasticsearch"
+    - "Reactor"
+    - "Hibernate"
+    - "JUnit"
+    - "Mockito"
+    - "AssertJ"
+    - "Tomcat 8"
+    - "Gradle"
+    - "SQL Server"
+    - "TeamCity"
+    - "Git"
+  description: |
+    Contributed to web applications that help Toerisme Vlaanderen manage
+    and promote tourism information in Flanders efficiently.
+
+provincie_vlaamsbrabant:
+  title: "Provincie Vlaams-Brabant"
+  from: "2009"
+  until: "2010"
+  role: "Java Developer"
+  location: "Leuven, Belgium"
+  technologies:
+    - "Tomcat"
+    - "Documentum DFC"
+    - "Oracle"
+    - "Spring"
+    - "Aspose"
+    - "CXF"
+    - "JUnit"
+    - "Unitils"
+    - "Maven"
+    - "TeamCity"
+    - "IntelliJ"
+  description: |
+    Worked on enterprise document management and integration systems
+    for the Flemish Brabant provincial government.
+
+de_post:
+  title: "De Post"
+  from: "2005"
+  until: "2009"
+  role: "Java Web Developer"
+  location: "Brussels, Belgium"
+  technologies:
+    - "JBoss"
+    - "Oracle 9i"
+    - "Java SE 5.0"
+    - "Struts 1.2.9"
+    - "Jasper Reports"
+    - "JUnit"
+    - "SVN"
+    - "EJB3"
+    - "JPA"
+    - "JAX-WS"
+    - "JMS"
+    - "Unitils"
+    - "DBMaintain"
+    - "Hudson"
+    - "DBUnit"
+    - "PVCS"
+  description: |
+    Developed and maintained enterprise Java web applications and
+    integrations for postal services.
+
+mazda:
+  title: "Mazda"
+  from: "2005"
+  until: ""
+  role: "Java Web Developer"
+  location: "Willebroek,Belgium"
+  technologies:
+    - "Tomcat 4.1"
+    - "DB2"
+    - "J2EE"
+    - "JSP"
+    - "Struts 1.2.4"
+    - "Ant"
+    - "Spring 1.1.3"
+  description: |
+    Developed and maintained web-based applications for internal
+    business processes at Mazda.
+
+telenet:
+  title: "Telenet"
+  from: "2004"
+  until: "2005"
+  role: "Java Developer"
+  location: "Kontich, Belgium"
+  technologies:
+    - "BEA WebLogic 8.1"
+    - "Oracle 9i"
+    - "J2EE"
+    - "JSP"
+    - "Struts"
+    - "Spring"
+    - "Ant"
+    - "XDoclet"
+    - "JUnit"
+    - "XP"
+  description: |
+    Developed enterprise Java applications for Telenet’s internal systems.

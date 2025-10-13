@@ -44,20 +44,23 @@
   tech-stack: (),
   description,
 ) = [
-  #entry(
-    title: title,
-    date: [#(from + " - " + until)],
-    institution: role,
-    location: location,
-  )[
+  #block(breakable: false)[
+    #entry(
+      title: title,
+      date: [#(from + " - " + until)],
+      institution: role,
+      location: location,
+    )[
 
-    #block(above: 2em)[
-      #set par(spacing: 1.1em)
-      #description
-      #tech-stack-items(tech-stack)
+      #block(above: 2em)[
+        #set par(spacing: 1.1em)
+        #description
+        #tech-stack-items(tech-stack)
+      ]
     ]
   ]
 ]
+
 
 #let experiences(yaml-data) = (
   context {
