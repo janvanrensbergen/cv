@@ -1,0 +1,34 @@
+dpg:
+  title: "De Persgroep"
+  from: "2016"
+  until: "dec 2018"
+  role: "Senior Kotlin/Java developer"
+  location: "Kobbegem, Belgium"
+  technologies:
+    - "Kotlin"
+    - "Java SE 8+"
+    - "Spring Framework"
+    - "Boot"
+    - "Security"
+    - "MVC"
+    - "thymeleaf"
+    - "Gradle"
+    - "AWS EC2"
+    - "lambda"
+    - "DynamoDb"
+    - "Step Functions"
+    - "SNS"
+    - "SQS"
+    - "Cloudformation"
+    - "x-ray"
+    - "S3"
+    - "ecs"
+    - "Prometheus"
+    - "Grafana"
+    - "ES/kibana"
+    - "Rundeck"
+    - "Ansible"
+  description: |
+     Started at De Persgoep as a senior developer in a large squad that overtime evolved in a small high-performance team. The squad’s mission is to provide newsrooms with the best possible print editorial system. We started by successfully rolling out De Persgroep’s editorial system, based around Quark software, across newly acquired newsrooms.
+
+     After we completed the rollout we got the opportunity to build a fresh, distributed, cloud native (AWS), CQRS event sourced print editorial system around Adobe Indesign Server.

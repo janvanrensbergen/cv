@@ -1,0 +1,24 @@
+aws:
+  title: "AWS Certified Developer - Associate Level"
+  date: "2017"
+
+mongo:
+  title: "M101J: MongoDB for Java Developers"
+  date: "2014"
+
+spring:
+  title: "Rich Web Applications with Spring"
+  date: "2010"
+
+flex:
+  title: "Adobe Flex 3 and LiveCycle: Integrating with Data & Messaging"
+  date: "2009"
+
+sun:
+  title: "Sun certified Programmer for the java 2 platform, SE 5.0"
+  date: "2006"
+
+khk:
+  title: "Bachelor in toegepaste informatica"
+  date: "2004"
+  institution: "Katholieke Hogeschool Kempen"

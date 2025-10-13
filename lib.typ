@@ -58,3 +58,40 @@
     ]
   ]
 ]
+
+#let experiences(yaml-data) = (
+  context {
+    let theme = __st-theme.final()
+    let experiences = yaml-data.values()
+
+    for exp in experiences {
+      [
+        #experience(
+          title: exp.title,
+          from: exp.from,
+          until: exp.until,
+          role: exp.role,
+          location: exp.location,
+          tech-stack: exp.technologies,
+          exp.description,
+        )
+      ]}
+  }
+)
+
+#let educations(yaml-data) = (
+  context {
+    let theme = __st-theme.final()
+    let educations = yaml-data.values()
+
+    for edu in educations {
+      [
+        #entry(
+          title: edu.title,
+          date: edu.date,
+          institution: if "institution" in edu { edu.institution } else { "" },
+          location: if "location" in edu { edu.location } else { "" },
+        )[]
+      ]}
+  }
+)
