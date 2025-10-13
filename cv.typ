@@ -40,13 +40,6 @@
   #v(1fr)
   #social-links()
 
-  = Physics & Engineering
-  #item-with-level("Temporal Mechanics", 5)
-  #item-with-level("Quantum Theory", 4)
-  #item-with-level("Nuclear Physics", 4)
-  #item-with-level("Mechanical Engineering", 5)
-  #item-with-level("Electrical Engineering", 4)
-  #item-with-level("Automotive Restoration", 4)
 
   = Technology
   #item-with-level("Flux Capacitor Design", 5)
@@ -107,48 +100,20 @@
   title: "Gegradueerde in toegepaste informatica",
   date: "2004",
   institution: "Katholieke Hogeschool Kempen",
-  // location: "Geel"
 )[]
 
 = Professional Experience
 
-#entry(
+#experience(
   title: "De Persgroep",
-  date: "2016 - dec 2018",
-  institution: "Senior Kotlin/Java developer",
+  from: "2016",
+  until: "dec 2018",
+  role: "Senior Kotlin/Java developer",
   location: "Kobbegem, Belgium",
+  tech-stack: ("Kotlin","Java SE 8+","Spring Framework","Boot","Security","MVC","thymeleaf","Gradle","AWS EC2","lambda","DynamoDb","Step Functions","SNS",
+              "SQS","Cloudformation","x-ray","S3","ecs","Prometheus","Grafana","ES/kibana","Rundeck","Ansible")
 )[
+  Started at De Persgoep as a senior developer in a large squad that overtime evolved in a small high-performance team. The squad’s mission is to provide newsrooms with the best possible print editorial system. We started by successfully rolling out De Persgroep’s editorial system, based around Quark software, across newly acquired newsrooms.
 
-  #block(above: 2em)[
-    #set par(spacing: 1.1em)
-    Started at De Persgoep as a senior developer in a large squad that overtime evolved in a small high-performance team. The squad’s mission is to provide newsrooms with the best possible print editorial system. We started by successfully rolling out De Persgroep’s editorial system, based around Quark software, across newly acquired newsrooms. 
-    
-    After we completed the rollout we got the opportunity to build a fresh, distributed, cloud native (AWS), CQRS event sourced print editorial system around Adobe Indesign Server.
-
-    #item-pills((
-      "Kotlin",
-      "Java SE 8+",
-      "Spring Framework",
-      "Boot",
-      "Security",
-      "MVC",
-      "thymeleaf",
-      "Gradle",
-      "AWS EC2",
-      "lambda",
-      "DynamoDb",
-      "Step Functions",
-      "SNS",
-      "SQS",
-      "Cloudformation",
-      "x-ray",
-      "S3",
-      "ecs",
-      "Prometheus",
-      "Grafana",
-      "ES/kibana",
-      "Rundeck",
-      "Ansible",
-    ))
-  ]
+  After we completed the rollout we got the opportunity to build a fresh, distributed, cloud native (AWS), CQRS event sourced print editorial system around Adobe Indesign Server.
 ]

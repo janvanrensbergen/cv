@@ -16,3 +16,28 @@
     #description
   ]
 }
+
+#let experience(
+  title: none,
+  from: "",
+  until: "",
+  role: "",
+  location: "",
+  tech-stack: (),
+  description,
+) = [
+  #entry(
+    title: title,
+    date: [#(from + " - " + until)],
+    institution: role,
+    location: location,
+  )[
+
+    #block(above: 2em)[
+      #set par(spacing: 1.1em)
+      #description
+      #item-pills(tech-stack)
+    ]
+  ]
+
+]
