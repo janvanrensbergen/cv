@@ -17,6 +17,24 @@
   ]
 }
 
+#let tech-stack-items(
+  items,
+  justify: true,
+) = (
+  context {
+    let theme = __st-theme.final()
+
+    set text(size: 0.75em, spacing: 0.5em)
+    set par(justify: justify)
+
+    block(
+      items
+        .map(item => [#smallcaps(item)])
+        .join(" · "),
+    )
+  }
+)
+
 #let experience(
   title: none,
   from: "",
@@ -36,8 +54,7 @@
     #block(above: 2em)[
       #set par(spacing: 1.1em)
       #description
-      #item-pills(tech-stack)
+      #tech-stack-items(tech-stack)
     ]
   ]
-
 ]
