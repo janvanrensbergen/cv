@@ -7,7 +7,7 @@
     email: "jan.vanrensbergen@gmail.com",
     address: [Bergstraat 39, 3200 Aarschot],
     phone: "+32 485 58 60 57",
-    position: ("Senior software crafter"),
+    position: "Senior software crafter",
     github: "janvanrensbergen",
     linkedin: "janvanrensbergen",
   ),
@@ -20,6 +20,24 @@
   paper-size: "a4",
   // side-width: 4cm,
   // footer: auto,
+  header: [
+     #block(width: 100%, inset: 1em)[
+       #text(size: 3em)[
+         #text(weight: "light")[Jan]
+         #text(weight: "medium")[Van Rensbergen]
+       ]
+
+       #v(-0.5em)
+
+       #text(
+         size: 0.95em,
+         fill: luma(200),
+         weight: "regular",
+       )[
+         #smallcaps("Senior Software Crafter")
+       ]
+     ]
+   ],
 )
 
 #side[
