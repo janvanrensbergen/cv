@@ -41,11 +41,34 @@
   #social-links()
 
 
-  = Technology
-  #item-with-level("Flux Capacitor Design", 5)
-  #item-with-level("Time Machine Construction", 5)
-  #item-with-level("Robotics", 3)
-  #item-with-level("Computer Programming", 3)
+  = Skills
+  - Kotlin
+  - java SE 21
+  - jakarta EE
+  - spring framework - boot - mvc - Cloud - Sleuth - data - integration - security
+  - thymeleaf
+  - JPA - Hibernate
+  - junit - mockito - assertj - mockk - hoverfly
+  - tomcat - jboss - Wildfly
+  - gradle - maven
+  - AWS lambda - Step Functions - EC2 - Cloudformation - S3 - ECS - X-ray - SNS - SQS
+  - Docker
+  - Kubernetes
+  - rest - soap webservices
+  - DDD - CQRS - event sourcing
+  - Hexagonal architecture
+  - javascript - typescript
+  - html 5
+  - sass - less - css3
+  - sql-server - oracle - mysql
+  - mongodb - DynamoDb
+  - elasticsearch - Kibana
+  - Prometheus - influxdb
+  - Grafana
+  - git - svn
+  - intellij
+  - teamcity - jenkins - gitlab ci
+  - mac os - unix
 
   = Other Skills
   #item-pills((
