@@ -52,14 +52,15 @@
 
   = Skills
   - Kotlin
-  - java SE 21
-  - jakarta EE
-  - spring framework - boot - mvc - Cloud - Sleuth - data - integration - security
+  - Java SE 
+  - Jakarta EE
+  - Spring Framework - Spring boot
   - thymeleaf
   - JPA - Hibernate
   - junit - mockito - assertj - mockk - hoverfly
   - tomcat - jboss - Wildfly
   - gradle - maven
+  #v(0.7em)
   - AWS lambda - Step Functions - EC2 - Cloudformation - S3 - ECS - X-ray - SNS - SQS
   - Docker
   - Kubernetes
