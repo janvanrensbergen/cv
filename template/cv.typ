@@ -21,21 +21,12 @@
   // side-width: 4cm,
   // footer: auto,
   header: [
-     #block(width: 100%, inset: 1em)[
-       #text(size: 3em)[
-         #text(weight: "light")[Jan]
-         #text(weight: "medium")[Van Rensbergen]
-       ]
-
-       #v(-0.5em)
-
-       #text(
-         size: 0.95em,
-         fill: luma(200),
-         weight: "regular",
-       )[
-         #smallcaps("Senior Software Crafter")
-       ]
+     #block(width: 100%)[
+       #text()[
+         #text(size: 3em, weight: "light")[Jan]
+         #text(size: 3em,weight: "medium")[Van Rensbergen]
+         #h(1em)
+         #text(size: 1.05em,fill: luma(200),weight: "regular",)[#smallcaps("Senior Software Crafter")]]
      ]
    ],
 )
@@ -54,8 +45,8 @@
   = Personal
   Nationality: Belgian\
   Date of birth: 30.07.1982
-  
-  
+
+
   #social-links()
 
 
@@ -109,7 +100,7 @@
 #p(font-size: 1.1em)[
   A motivated senior software engineer helping companies big and small deliver working software supporting real use cases.
 
-  While striving for technical excellence, I get fired up about Kotlin, clean - solid - code, clouds, CI/CD, observability and CQRS.
+  While striving for technical excellence, I get fired up about Kotlin, #box[clean - solid - code], clouds, CI/CD, observability and CQRS.
 
   But, above all: picking the right tool for the job.
 ]
@@ -119,4 +110,3 @@
 
 = Professional Experience
 #experiences(yaml("experiences.yaml"))
-
