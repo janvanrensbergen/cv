@@ -18,7 +18,7 @@
   body-font: ( "Roboto" ),
   // body-font-size: 10.5pt,
   paper-size: "a4",
-  // side-width: 4cm,
+  side-width: 4.5cm,
   // footer: auto,
   header: [
      #block(width: 100%)[
@@ -50,35 +50,66 @@
   #social-links()
 
 
-  = Skills
-  - Kotlin
-  - Java SE 
-  - Jakarta EE
-  - Spring Framework - Spring boot
-  - thymeleaf
-  - JPA - Hibernate
-  - junit - mockito - assertj - mockk - hoverfly
-  - tomcat - jboss - Wildfly
-  - gradle - maven
-  #v(0.7em)
-  - AWS lambda - Step Functions - EC2 - Cloudformation - S3 - ECS - X-ray - SNS - SQS
-  - Docker
-  - Kubernetes
-  - rest - soap webservices
-  - DDD - CQRS - event sourcing
-  - Hexagonal architecture
-  - javascript - typescript
-  - html 5
-  - sass - less - css3
-  - sql-server - oracle - mysql
-  - mongodb - DynamoDb
-  - elasticsearch - Kibana
-  - Prometheus - influxdb
-  - Grafana
-  - git - svn
-  - intellij
-  - teamcity - jenkins - gitlab ci
-  - mac os - unix
+ = Skills
+
+ #heading(level: 1)[Skills]
+ 
+ #strong[Languages & Frameworks]
+ - Kotlin
+ - Java SE / Jakarta EE
+ - Spring Boot / Framework
+ - JPA / Hibernate
+ - Thymeleaf
+ 
+ #v(0.6em)
+ #strong[Architecture & Practices]
+ - Domain-Driven Design (DDD)
+ - CQRS
+ - Event Sourcing
+ - Hexagonal Architecture
+ - Microservices
+ - Clean Code / SOLID Principles
+ 
+ #v(0.6em)
+ #strong[Testing]
+ - JUnit · MockK · Mockito · AssertJ · Hoverfly
+ 
+ #v(0.6em)
+ #strong[Cloud & Infrastructure]
+ - AWS (Lambda, Step Functions, EC2, ECS, CloudFormation, S3, X-Ray, SNS, SQS)
+ - Google Cloud (App Engine, Pub/Sub, Cloud Storage)
+ - Docker · Kubernetes · ArgoCD
+ - Prometheus · Grafana · Elastic Stack (Elasticsearch, Kibana)
+ 
+ #v(0.6em)
+ #strong[Build, CI/CD & Tools]
+ - Gradle · Maven
+ - Git · GitLab CI · Jenkins · TeamCity
+ - IntelliJ IDEA
+ 
+ #v(0.6em)
+ #strong[Web & Frontend]
+ - JavaScript / TypeScript
+ - HTML5 · CSS3 · Sass · Less
+ - REST · SOAP APIs
+ 
+ #v(0.6em)
+ #strong[Databases]
+ - SQL (PostgreSQL, MySQL, Oracle)
+ - NoSQL (MongoDB, DynamoDB)
+ 
+ #v(0.6em)
+ #strong[Operating Systems]
+ - macOS · Unix / Linux
+
+  
+  #v(0.6em)
+  #text(size: 0.9em, fill: luma(130))[
+    #emph("Core Strengths:") Kotlin · Spring Boot · DDD · CQRS · Event Sourcing · AWS · Docker · Kubernetes · Clean Architecture
+  ]
+
+
+
 
   = Other Skills
   #item-pills((
