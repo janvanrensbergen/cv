@@ -36,8 +36,8 @@
   = Interests
   - Kotlin software development
   - Domain Driven Design
-  - Clean Code/Architecture
-  - Biking - Fitness - Music
+  - Clean Code · Architecture
+  - Cycling · Fitness · Music
 
   = Contact
   #contact-info()

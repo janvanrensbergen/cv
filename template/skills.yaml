@@ -1,48 +1,55 @@
 main:
   Languages & Frameworks:
     - Kotlin
-    - Java SE / Jakarta EE
-    - Spring Boot / Framework
-    - JPA / Hibernate
-    - Thymeleaf
+    - Java SE
+    - Spring Boot · Spring Framework
+    - Jakarta EE
+    - Quarkus
 
-  Architecture & Practices:
+  Architecture & Engineering practices:
+    - Clean Code · S.O.L.I.D 
+    - Hexagonal Architecture
     - Domain-Driven Design (DDD)
+    - Test-Driven Development (TDD)
     - CQRS
     - Event Sourcing
-    - Hexagonal Architecture
     - Microservices
-    - Clean Code / SOLID Principles
 
-  Testing:
-    - JUnit · MockK · Mockito · AssertJ · Hoverfly
-
-  Cloud & Infrastructure:
-    - AWS (Lambda, Step Functions, EC2, ECS, CloudFormation, S3, X-Ray, SNS, SQS)
-    - Google Cloud (App Engine, Pub/Sub, Cloud Storage)
+  Cloud, DevOps & Infrastructure:
+    - AWS · Google cloud platform · Azure
     - Docker · Kubernetes · ArgoCD
-    - Prometheus · Grafana · Elastic Stack (Elasticsearch, Kibana)
+    - Grafana OSS · Prometheus 
+    - Elastic Stack
+    - Distributed tracing (Brave · OpenTelemetry · Zipkin)
+    
+  Testing & QA:
+    - JUnit · AssertJ · Kotest
+    - MockK · Mockito
+    - WireMock · Hoverfly 
+  
+  Data & Messaging:
+    - SQL
+    - NoSQL · MongoDB · DynamoDB
+    - RabbitMQ
+    - Tomcat
 
-  Build, CI/CD & Tools:
+  Build & CI/CD:
     - Gradle · Maven
-    - Git · GitLab CI · Jenkins · TeamCity
-    - IntelliJ IDEA
+    - Git
+    - Github Actions · GitLab CI · Jenkins
 
-  Web & Frontend:
-    - JavaScript / TypeScript
-    - HTML5 · CSS3 · Sass · Less
+  Web & Frontend Technologies:
     - REST · SOAP APIs
-
-  Databases:
-    - SQL (PostgreSQL, MySQL, Oracle)
-    - NoSQL (MongoDB, DynamoDB)
-
-  Operating Systems:
-    - macOS · Unix / Linux
+    - Thymeleaf
+    - JavaScript · TypeScript
+    - Tailwind
+    - VueJs · Angular
+    - HTML · CSS · Sass
+    
 other:
   - Creative Problem Solving
-  - Scientific Communication
-  - Workshop Safety
-  - Mentoring Young Scientists
-  - Improvisation
-  - Experimental Design
+  - macOS
+  - Linux
+  - IntelliJ IDEA
+  - Python
+  - Serverless
