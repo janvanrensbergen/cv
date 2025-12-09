@@ -4,10 +4,11 @@ athumi:
   until: "present"
   role: "Senior Kotlin Developer"
   location: "Gent, Belgium - Hybrid"
-  technologies:
-    - "Kotlin"
-
+  technologies: [ "Kotlin", "Spring Boot", "Spring Framework", "Hexagonal", "CQRS","DDD", "Enterprise Solid Server", "Linked data", "json-ld", "turtle", "OpenId Connect"]
   description: |
+    At Athumi, I work on a large-scale platform that enables secure data exchange between government entities and private organizations, built on the Solid protocol. 
+    I contribute to the design and development of backend services in Kotlin, applying domain-driven principles and modern architectural practices.
+    
 
 opgroeien:
   title: "Opgroeien"
@@ -15,17 +16,7 @@ opgroeien:
   until: "2024"
   role: "Senior Java Developer"
   location: "Leuven, Belgium - Hybrid"
-  technologies:
-    - "Java SE 21"
-    - "Spring Framework"
-    - "Boot"
-    - "CQRS"
-    - "Kubernetes"
-    - "ArgoCd"
-    - "RabbitMQ"
-    - "Gradle"
-    - "Angular"
-    - "Ionic"
+  technologies: [ "Java SE 21", "Spring Framework", "Boot", "CQRS", "Kubernetes", "ArgoCd", "RabbitMQ", "Gradle", "Angular", "Ionic" ]
   description: |
     PARKOUR is an online platform designed for youth aged 13 to 25. It provides easy
     access to information about personal development and themes of interest to this
@@ -38,21 +29,7 @@ melexis:
   until: "2023"
   role: "Senior Kotlin Developer"
   location: "Ieper, Belgium - Hybrid"
-  technologies:
-    - "Kotlin"
-    - "Spring Framework"
-    - "Boot"
-    - "Google Cloud Platform"
-    - "Arrow"
-    - "Google App Engine"
-    - "Cloud Storage"
-    - "Pub/Sub"
-    - "Gradle"
-    - "GitLab CI"
-    - "Jib"
-    - "JUnit"
-    - "Mockito"
-    - "Mockk"
+  technologies: [  "Kotlin", "Spring Framework", "Boot", "Google Cloud Platform", "Arrow", "Google App Engine", "Cloud Storage", "Pub/Sub", "Gradle", "GitLab CI", "Jib", "JUnit", "Mockito", "Mockk"]
   description: |
     Revamped the old Electronic Wafermap system using the strangler pattern,
     creating smaller, specialized services running on Google App Engine.
@@ -65,43 +42,18 @@ vrt:
   until: "2022"
   role: "Senior Java Developer"
   location: "Brussels, Belgium - Hybrid"
-  technologies:
-    - "Java SE 8+"
-    - "Spring Framework"
-    - "Boot"
-    - "Integration"
-    - "Security"
-    - "AWS EB"
-    - "Lambda"
-    - "EC2"
-    - "S3"
-    - "CloudFormation"
-    - "SQS"
-    - "Gradle"
-    - "Maven"
-    - "AngularJS"
-    - "REST"
-    - "SOAP"
-    - "Jenkins"
+  technologies: [ "Java SE 8+", "Spring Framework", "Boot", "Integration", "Security", "AWS EB", "Lambda", "EC2", "S3", "CloudFormation", "SQS", "Gradle", "Maven", "AngularJS", "REST", "SOAP", "Jenkins" ]
   description: |
     Developed multiple video processing flows integrating online/offline
     broadcast systems, archives, and third-party systems.
 
 liantis:
   title: "Liantis"
-  from: "2019"
+  
   until: "2019"
   role: "Senior Kotlin Team Lead"
   location: "Brussels, Belgium"
-  technologies:
-    - "Kotlin"
-    - "Spring Framework"
-    - "Boot"
-    - "Security"
-    - "Integration"
-    - "OpenID Connect"
-    - "RabbitMQ"
-    - "Angular 6"
+  technologies: [ "Kotlin", "Spring Framework", "Boot", "Security", "Integration", "OpenID Connect", "RabbitMQ", "Angular 6" ]
   description: |
     Built “Startersomgeving,” an application allowing users to easily become
     self-employed, integrating with ItsMe for identification and POM as the
@@ -113,30 +65,7 @@ dpg:
   until: "2018"
   role: "Senior Kotlin - Java Lead Developer"
   location: "Kobbegem, Belgium"
-  technologies:
-    - "Kotlin"
-    - "Java SE 8+"
-    - "Spring Framework"
-    - "Boot"
-    - "Security"
-    - "MVC"
-    - "Thymeleaf"
-    - "Gradle"
-    - "AWS EC2"
-    - "Lambda"
-    - "DynamoDb"
-    - "Step Functions"
-    - "SNS"
-    - "SQS"
-    - "CloudFormation"
-    - "X-Ray"
-    - "S3"
-    - "ECS"
-    - "Prometheus"
-    - "Grafana"
-    - "Elasticsearch/Kibana"
-    - "Rundeck"
-    - "Ansible"
+  technologies: [ "Kotlin", "Java SE 8+", "Spring Framework", "Boot", "Security", "MVC", "Thymeleaf", "Gradle", "AWS EC2", "Lambda", "DynamoDb", "Step Functions", "SNS", "SQS", "CloudFormation",Ray", "S3", "ECS", "Prometheus", "Grafana", "Elasticsearch/Kibana", "Rundeck", "Ansible" ]
   description: |
     Started at De Persgroep as a senior developer in a large squad that evolved into
     a small high-performance team providing newsrooms with an optimal editorial
@@ -149,26 +78,7 @@ kindengezin:
   from: "2016"
   role: "Senior Java Web Developer"
   location: "Kontich, Belgium"
-  technologies:
-    - "Java SE 8"
-    - "Spring 4"
-    - "Spring Boot"
-    - "Spring Data REST"
-    - "Hibernate"
-    - "Spock"
-    - "JavaSlang"
-    - "Lombok"
-    - "Gradle"
-    - "AngularJS"
-    - "TypeScript"
-    - "SASS"
-    - "LESS"
-    - "Bootstrap"
-    - "Gulp"
-    - "Bower"
-    - "NPM"
-    - "Liquibase"
-    - "Postgres"
+  technologies: [ "Java SE 8", "Spring 4", "Spring Boot", "Spring Data REST", "Hibernate", "Spock", "JavaSlang", "Lombok", "Gradle", "AngularJS", "TypeScript", "SASS", "LESS", "Bootstrap", "Gulp", "Bower", "NPM", "Liquibase", "Postgres" ]
   description: |
     Developed “Vlaams Kadaster,” a web application for managing information
     about children, beneficiaries, and funds in the context of child benefits.
@@ -179,35 +89,7 @@ inbo:
   until: "2016"
   role: "Senior Java Web Developer"
   location: "Brussels, Belgium"
-  technologies:
-    - "Java SE 8"
-    - "Spring 4"
-    - "Spring Boot"
-    - "Spring Data JPA"
-    - "Spring REST"
-    - "Spring Security"
-    - "Spring Cloud"
-    - "Spring Integration"
-    - "Spring Social"
-    - "Hibernate"
-    - "Thymeleaf"
-    - "Spock"
-    - "Cucumber"
-    - "Gradle"
-    - "AngularJS"
-    - "TypeScript"
-    - "RxJS"
-    - "SASS"
-    - "LESS"
-    - "Bootstrap"
-    - "Material Design"
-    - "Gulp"
-    - "Bower"
-    - "NPM"
-    - "Liquibase"
-    - "SQL Server"
-    - "Postgres"
-    - "AWS"
+  technologies: [ "Java SE 8", "Spring 4", "Spring Boot", "Spring Data JPA", "Spring REST", "Spring Security", "Spring Cloud", "Spring Integration", "Spring Social", "Hibernate", "Thymeleaf", "Spock", "Cucumber", "Gradle", "AngularJS", "TypeScript", "RxJS", "SASS", "LESS", "Bootstrap", "Material Design", "Gulp", "Bower", "NPM", "Liquibase", "SQL Server", "Postgres", "AWS" ]
   description: |
     Supported scientific research by building various modern web applications
     using the latest frontend and backend technologies.
@@ -218,27 +100,7 @@ toerismevlaanderen:
   until: "2015"
   role: "Senior Java Web Developer"
   location: "Brussels,Belgium"
-  technologies:
-    - "Java SE 8"
-    - "Spring Framework 4"
-    - "Spring MVC"
-    - "Webflow"
-    - "Thymeleaf"
-    - "Spring Data"
-    - "Spring Integration"
-    - "Spring Boot"
-    - "Spring Security"
-    - "Elasticsearch"
-    - "Reactor"
-    - "Hibernate"
-    - "JUnit"
-    - "Mockito"
-    - "AssertJ"
-    - "Tomcat 8"
-    - "Gradle"
-    - "SQL Server"
-    - "TeamCity"
-    - "Git"
+  technologies: [ "Java SE 8", "Spring Framework 4", "Spring MVC", "Webflow", "Thymeleaf", "Spring Data", "Spring Integration", "Spring Boot", "Spring Security", "Elasticsearch", "Reactor", "Hibernate", "JUnit", "Mockito", "AssertJ", "Tomcat 8", "Gradle", "SQL Server", "TeamCity", "Git" ]
   description: |
     Contributed to web applications that help Toerisme Vlaanderen manage
     and promote tourism information in Flanders efficiently.
@@ -249,18 +111,7 @@ provincie_vlaamsbrabant:
   until: "2010"
   role: "Java Developer"
   location: "Leuven, Belgium"
-  technologies:
-    - "Tomcat"
-    - "Documentum DFC"
-    - "Oracle"
-    - "Spring"
-    - "Aspose"
-    - "CXF"
-    - "JUnit"
-    - "Unitils"
-    - "Maven"
-    - "TeamCity"
-    - "IntelliJ"
+  technologies: ["Tomcat", "Documentum DFC", "Oracle", "Spring", "Aspose", "CXF", "JUnit", "Unitils", "Maven", "TeamCity", "IntelliJ" ]
   description: |
     Worked on enterprise document management and integration systems
     for the Flemish Brabant provincial government.
@@ -271,23 +122,7 @@ de_post:
   until: "2009"
   role: "Java Web Developer"
   location: "Brussels, Belgium"
-  technologies:
-    - "JBoss"
-    - "Oracle 9i"
-    - "Java SE 5.0"
-    - "Struts 1.2.9"
-    - "Jasper Reports"
-    - "JUnit"
-    - "SVN"
-    - "EJB3"
-    - "JPA"
-    - "JAX-WS"
-    - "JMS"
-    - "Unitils"
-    - "DBMaintain"
-    - "Hudson"
-    - "DBUnit"
-    - "PVCS"
+  technologies: [ "JBoss", "Oracle 9i", "Java SE 5.0", "Struts 1.2.9", "Jasper Reports", "JUnit", "SVN", "EJB3", "JPA", ",WS", "JMS", "Unitils", "DBMaintain", "Hudson", "DBUnit", "PVCS"]
   description: |
     Developed and maintained enterprise Java web applications and
     integrations for postal services.
@@ -297,14 +132,7 @@ mazda:
   from: "2005"
   role: "Java Web Developer"
   location: "Willebroek,Belgium"
-  technologies:
-    - "Tomcat 4.1"
-    - "DB2"
-    - "J2EE"
-    - "JSP"
-    - "Struts 1.2.4"
-    - "Ant"
-    - "Spring 1.1.3"
+  technologies: [ "Tomcat 4.1", "DB2", "J2EE", "JSP", "Struts 1.2.4", "Ant", "Spring 1.1.3"]
   description: |
     Developed and maintained web-based applications for internal
     business processes at Mazda.
@@ -315,16 +143,6 @@ telenet:
   until: "2005"
   role: "Java Developer"
   location: "Kontich, Belgium"
-  technologies:
-    - "BEA WebLogic 8.1"
-    - "Oracle 9i"
-    - "J2EE"
-    - "JSP"
-    - "Struts"
-    - "Spring"
-    - "Ant"
-    - "XDoclet"
-    - "JUnit"
-    - "XP"
+  technologies: ["BEA WebLogic 8.1", "Oracle 9i", "J2EE", "JSP", "Struts", "Spring", "Ant", "XDoclet", "JUnit", "XP"]
   description: |
     Developed enterprise Java applications for Telenet’s internal systems.

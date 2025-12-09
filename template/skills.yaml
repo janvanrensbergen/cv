@@ -13,6 +13,7 @@ main:
     - Test-Driven Development (TDD)
     - CQRS
     - Event Sourcing
+    - OAuth 2.0 · OpenID Connect
     - Microservices
 
   Cloud, DevOps & Infrastructure:
