@@ -301,3 +301,21 @@
       ]}
   }
 )
+
+#let skills(yaml) = context {
+  let theme = __st-theme.final()
+
+  heading(level: 1)[Skills]
+  for (header, items) in yaml {
+    block(breakable: false)[
+      #strong(header)
+
+      #for item in items [
+        - #item
+      ]
+
+      #v(0.6em)
+    ]
+  }
+
+}
