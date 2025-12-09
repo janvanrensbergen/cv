@@ -306,16 +306,19 @@
   let theme = __st-theme.final()
 
   heading(level: 1)[Skills]
-  for (header, items) in yaml {
+  for (key, value) in yaml.main {
     block(breakable: false)[
-      #strong(header)
+      #strong(key)
 
-      #for item in items [
+      #for item in value [
         - #item
       ]
 
       #v(0.6em)
     ]
   }
+
+  heading(level: 1)[Other Skills]
+  item-pills(yaml.other)
 
 }

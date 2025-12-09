@@ -52,16 +52,6 @@
 
   #skills(yaml("skills.yaml"))
 
-  = Other Skills
-  #item-pills((
-    "Creative Problem Solving",
-    "Scientific Communication",
-    "Workshop Safety",
-    "Mentoring Young Scientists",
-    "Improvisation",
-    "Experimental Design",
-  ))
-
   = Languages
   #item-with-level("Dutch", 5, subtitle: "Native")
   #item-with-level("English", 3, subtitle: "Good")

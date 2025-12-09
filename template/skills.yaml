@@ -1,40 +1,48 @@
-Languages & Frameworks:
-  - Kotlin
-  - Java SE / Jakarta EE
-  - Spring Boot / Framework
-  - JPA / Hibernate
-  - Thymeleaf
+main:
+  Languages & Frameworks:
+    - Kotlin
+    - Java SE / Jakarta EE
+    - Spring Boot / Framework
+    - JPA / Hibernate
+    - Thymeleaf
 
-Architecture & Practices:
-  - Domain-Driven Design (DDD)
-  - CQRS
-  - Event Sourcing
-  - Hexagonal Architecture
-  - Microservices
-  - Clean Code / SOLID Principles
+  Architecture & Practices:
+    - Domain-Driven Design (DDD)
+    - CQRS
+    - Event Sourcing
+    - Hexagonal Architecture
+    - Microservices
+    - Clean Code / SOLID Principles
 
-Testing:
-  - JUnit · MockK · Mockito · AssertJ · Hoverfly
+  Testing:
+    - JUnit · MockK · Mockito · AssertJ · Hoverfly
 
-Cloud & Infrastructure:
-  - AWS (Lambda, Step Functions, EC2, ECS, CloudFormation, S3, X-Ray, SNS, SQS)
-  - Google Cloud (App Engine, Pub/Sub, Cloud Storage)
-  - Docker · Kubernetes · ArgoCD
-  - Prometheus · Grafana · Elastic Stack (Elasticsearch, Kibana)
+  Cloud & Infrastructure:
+    - AWS (Lambda, Step Functions, EC2, ECS, CloudFormation, S3, X-Ray, SNS, SQS)
+    - Google Cloud (App Engine, Pub/Sub, Cloud Storage)
+    - Docker · Kubernetes · ArgoCD
+    - Prometheus · Grafana · Elastic Stack (Elasticsearch, Kibana)
 
-Build, CI/CD & Tools:
-  - Gradle · Maven
-  - Git · GitLab CI · Jenkins · TeamCity
-  - IntelliJ IDEA
+  Build, CI/CD & Tools:
+    - Gradle · Maven
+    - Git · GitLab CI · Jenkins · TeamCity
+    - IntelliJ IDEA
 
-Web & Frontend:
-  - JavaScript / TypeScript
-  - HTML5 · CSS3 · Sass · Less
-  - REST · SOAP APIs
+  Web & Frontend:
+    - JavaScript / TypeScript
+    - HTML5 · CSS3 · Sass · Less
+    - REST · SOAP APIs
 
-Databases:
-  - SQL (PostgreSQL, MySQL, Oracle)
-  - NoSQL (MongoDB, DynamoDB)
+  Databases:
+    - SQL (PostgreSQL, MySQL, Oracle)
+    - NoSQL (MongoDB, DynamoDB)
 
-Operating Systems:
-  - macOS · Unix / Linux
+  Operating Systems:
+    - macOS · Unix / Linux
+other:
+  - Creative Problem Solving
+  - Scientific Communication
+  - Workshop Safety
+  - Mentoring Young Scientists
+  - Improvisation
+  - Experimental Design
